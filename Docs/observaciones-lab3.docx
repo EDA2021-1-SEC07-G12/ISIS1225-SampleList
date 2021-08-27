@@ -1,0 +1,21 @@
+¿Cuáles son los mecanismos de interacción (I/O: Input/Output) que tiene el view.py con el 
+usuario?:
+
+Primeramente el programa solicita un input sobre las 5 primeras opciones de la aplicacion:
+1.Cargar informacion del catalogo
+2.Consultar los Top x libros por promedio
+3.Consultar los libros de un autor
+4.Libros por genero
+0.Salir
+
+En la opción 1 el programa muestra al usuario la informacion de catalogo.
+
+En la opcion 2 solicita un input la usuario para gracias a él generar el output del autor solicitado por el usuario.
+
+En la opción 3 el programa solicita un input al usuario para iniciar la busqueda de los libros del autor solicitado, y después genera un output con los datos introducidos.
+
+Enl a opción 4 el programa solicita el género el cual el usuario quiere consultar y solicita una etiqueta para mostrar los datos solicitados.
+
+
+• ¿Cómo se almacenan los datos de GoodReads en el model.py?
+• ¿Cuáles son las funciones que comunican el view.py y el model.py
