@@ -14,8 +14,10 @@ En la opcion 2 solicita un input la usuario para gracias a él generar el output
 
 En la opción 3 el programa solicita un input al usuario para iniciar la busqueda de los libros del autor solicitado, y después genera un output con los datos introducidos.
 
-Enl a opción 4 el programa solicita el género el cual el usuario quiere consultar y solicita una etiqueta para mostrar los datos solicitados.
+En la opción 4 el programa solicita el género el cual el usuario quiere consultar y solicita una etiqueta para mostrar los datos solicitados.
 
 
-• ¿Cómo se almacenan los datos de GoodReads en el model.py?
+• ¿Cómo se almacenan los datos de GoodReads en el model.py?:
+
+    
 • ¿Cuáles son las funciones que comunican el view.py y el model.py
