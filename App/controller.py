@@ -75,7 +75,7 @@ def loadTags(catalog):
     for tag in input_file:
         model.addTag(catalog, tag)
 
-
+    
 def loadBooksTags(catalog):
     """
     Carga la información que asocia tags con libros.

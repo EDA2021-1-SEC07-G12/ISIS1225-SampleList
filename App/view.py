@@ -81,8 +81,7 @@ def printBestBooks(books):
 
 catalog = None
 
-def prueba():
-    print("Prueba")
+
 """
 Menu principal
 """

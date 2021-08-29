@@ -16,8 +16,12 @@ En la opción 3 el programa solicita un input al usuario para iniciar la busqued
 
 En la opción 4 el programa solicita el género el cual el usuario quiere consultar y solicita una etiqueta para mostrar los datos solicitados.
 
+-Estas opciones le permiten al usuario tener una mayor claridad del programa, de sus funciones, eficiencia, y de esta forma que la interacción sea mucho mas amigable con el programa.
 
 • ¿Cómo se almacenan los datos de GoodReads en el model.py?:
 
-    
+En primera instancia se cargan varias listas vacias con la función newCatalog(). Esta función crea un diccionario con distintas llaves como author, id, name, etc. Las cuales se encuentran vacias.
+
+
+
 • ¿Cuáles son las funciones que comunican el view.py y el model.py
