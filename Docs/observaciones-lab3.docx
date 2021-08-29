@@ -40,4 +40,27 @@ cada vez que se informacion especifica como Nombre del autor, etiqueta, y mejore
 Todas las funciones del controller.py se encuentran relacionadas con el model.py, debido a que es el encargado de crear las estructuras que van a ser almacenadas.
 Por ende, sirve de puente entre el view.py y el model.py
 
+PASO 4:
 
+• ¿Cómo se crea una lista?
+
+-Se crea a partir de una función llamada newList(datastructure, cmpfunction, key, filename, delimiter) la cual recibe principalmente la estructura de datos a usar.
+Además evidenciamos que se puede comparar informacion bajo ciertos parametros, sin embargo, en este caso, estos parametros vienen vacios por defecto.
+y por último hay un parametro de delimitador que ayuda a separar la informacion mediante un caracter especial, para así cargar los datos,  siendo la coma "," por defecto
+
+• ¿Qué hace el parámetro cmpfunction=None en la función newList()?
+Si este parametro se encuentra en None, ningun elemento de la nueva lista será comparado a partir de las función. en caso de que este parametro tenga el nombre de una función.
+La función va a raelizar las comparaciones de acuerdo al programa para, por ejemplo, descartar nombres ya existentes en la lista.
+• ¿Qué hace la función addLast()?:
+Recibe como parametro la lista y el elemento que quiere ser agregado. Este elemento es agregado en la última posición de la lista encadenada creada y el que antes era el último elemento actualiza su apuntador, al nuevo último elemento y ademas el tamaño de la lista se incrementa en 1.
+
+• ¿Qué hace la función getElement()?
+
+Recibe como parametro la lista y la posición del elemento que quiere ser consultado, al ser una lista encadenada, se debe recorrer cada uno de los elementos hasta llegar a la posición buscada.
+
+• ¿Qué hace la función subList()?
+
+Recibe como parametro la lista a examinar, la  posición a partir de la que se desea obtener la sublista y el numero de elementos a copiar en la sublista.
+
+Esta función recorre la lista encadenada hasta encontrar el elemento en la posición deseada y a partir de ese momento, empieza a contar y agregar la cantidad de elementos deseada.
+Esta sublista es una copia de los elementos que se agregaron
