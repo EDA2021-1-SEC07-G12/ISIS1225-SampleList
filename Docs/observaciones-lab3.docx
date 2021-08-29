@@ -64,3 +64,9 @@ Recibe como parametro la lista a examinar, la  posición a partir de la que se d
 
 Esta función recorre la lista encadenada hasta encontrar el elemento en la posición deseada y a partir de ese momento, empieza a contar y agregar la cantidad de elementos deseada.
 Esta sublista es una copia de los elementos que se agregaron
+
+PASO 5: 
+• ¿Observó algún cambio en el comportamiento del programa al cambiar la implementación del
+parámetro “ARRAY_LIST” a “SINGLE_LINKED”?:
+
+Sí, evidenciamos que hubo un cambio en el tiempo de respuesta del programa para mostrar la informacion al usuario e internamente, creemos que al ser una estructura más compleja esta tardará más tiempo en organizar los datos.
