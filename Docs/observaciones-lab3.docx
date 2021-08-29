@@ -21,7 +21,23 @@ En la opción 4 el programa solicita el género el cual el usuario quiere consul
 • ¿Cómo se almacenan los datos de GoodReads en el model.py?:
 
 En primera instancia se cargan varias listas vacias con la función newCatalog(). Esta función crea un diccionario con distintas llaves como author, id, name, etc. Las cuales se encuentran vacias.
+Además, se crean mas funciones, las cuales dependiendo la necesidad del usuario, se puede agregar diferente informacion al diccionario creado.
+La estructura más usada es el "ARRAY_LIST", además, de no solo subir los datos, tambien se encarga de crear nuevos datos en caso de ser necesario.
+
+• ¿Cuáles son las funciones que comunican el view.py y el model.py?
+
+El view.py se comunica con el model.py a través del controller.py, este último es el encargado de organizar los datos en las estructuras de datos
+creadas por el model.py y adecuar la informacion la información dependiendo de la necesidad del usuario. Una vez el controller.py halla adecuado/filtrado
+la informacion será enviada hacia el view.py para que sea mostrada al usuario.
+
+Las funciones que comunican el controller.py y el view.py son teniendo en cuenta que son llamadas desde el view:
+
+-initCatalog(), esta función le dice al controller.py iniciar el catalogo de libros.
+-loadData(), esta función le dice al controller.py cargar los datos del CSV.
+-Estas son funciones son principalmente ejecutadas desde el view, tambien el view.py se comunica con el controller.py a través del menu principal
+cada vez que se informacion especifica como Nombre del autor, etiqueta, y mejores libros.
+
+Todas las funciones del controller.py se encuentran relacionadas con el model.py, debido a que es el encargado de crear las estructuras que van a ser almacenadas.
+Por ende, sirve de puente entre el view.py y el model.py
 
 
-
-• ¿Cuáles son las funciones que comunican el view.py y el model.py
